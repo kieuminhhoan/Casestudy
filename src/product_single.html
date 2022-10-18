@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><i class="fa-solid fa-book-open-reader fa-2x mx-3"></i>NOVEL</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <!-- <span class="navbar-toggler-icon"></span> --><i class="fas fa-align-right text-light"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel" style=" background-image: linear-gradient(to left top, #0091ea, #e1f5);">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house"></i>TRANG CHỦ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="news.html"><i class="bi bi-newspaper"></i>TIN TỨC</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="product-all" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="bi bi-book-half"></i>
+                                        SẢN PHẨM
+                                    </a>
+                                    <ul class="dropdown-menu" style="background-image: linear-gradient(to left top, #0091ea, #e1f5);">
+                                        <li><a class="dropdown-item" href="product.html">Light Novel</a></li>
+                                        <li><a class="dropdown-item" href="product.html">Manga</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="profile.html"><i class="bi bi-file-person"></i>VỀ NOVEL</a>
+                                </li>
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-cart-check-fill"></i>GIỎ HÀNG</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-box-arrow-in-right"></i>ĐĂNG NHẬP</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn" type="submit"
+                                    style="background-color: #0091ea; color: white;">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="single">
+        <div class="container">
+            <h5><a href="index.html">Trang chủ</a><span>/</span><a href="products.html">Sản phẩm</a><span>/</span><a href="#">Hắc Hiệp Sĩ</a></h5>
+        </div>
+        <hr>
+        <div class="container">
+            <h3 >Hắc Hiệp Sĩ</h3>
+            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of </p>
+            <div class="row myrow">
+                <div class="col-12 col-md-8 slider-sec">
+                    <!-- main slider carousel -->
+
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active" data-slide-number="0">
+                                <img src="/asset/novel1.jpg" alt="image" class="img-fluid w549">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="/asset/novel1-2.jpg" alt="image" class="img-fluid w549">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="/asset/novel2.jpg" alt="image" class="img-fluid w549">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="3">
+                                <img src="/asset/novel2-2.jpg" alt="image" class="img-fluid w549">
+                            </div>
+                        </div>
+                        <!-- main slider carousel nav controls -->
+                        <ul class="carousel-indicators list-inline">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
+                                    <img src="/asset/novel2.jpg" alt="image" class="w98">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+                                    <img src="/asset/novel2-2.jpg" alt="image" class="w98">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+                                    <img src="/asset/novel3-2.jpg" alt="image" class="w98">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
+                                    <img src="/asset/novel4-1.png" alt="image" class="w98">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/main slider carousel-->
+                </div>
+                <div class="col-md-4 slider-content">
+                    <ul>
+                        <li class="mylist">
+                            <span class="myspan">Price</span>
+                            <span class="myspan">:</span>
+                            <span class="myspan">$34</span>
+                        </li>
+                        <li class="mylist1">
+                            <span class="myspan1">Now</span>&nbsp;
+                            <span class="myspan1">:</span>&nbsp;
+                            <span class="myspan1">$30</span>
+                        </li>
+                    </ul>
+
+                    <a class="b1" href="#">
+                        ADD TO CART
+                    </a>
+                    <a href="#" class="b2">
+                        BUY NOW
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row myrow1">
+                    <div class="col-md-12">
+                        <div class="myreview" data-aos="fade-up">
+                            <h2>Reviews</h2>
+                            <div class="review-content">
+                                <h6>Quốc Bảo&nbsp;/
+                                    <span>18/10/2022</span>
+                                </h6>
+                                <p>Wow...Wow.....Amazing!!!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <h3>Viết bình luận</h3>
+                <p>Hãy cho chúng tôi biết suy nghĩ của bạn về cuốn sách này nhé!!!</p>
+                <div class="row" >
+                    <div class="col-md-6">
+                        <form>
+                            <input type="text" name="firstname" placeholder="Your name.." required/>
+    
+                            <input type="text" name="lastname" placeholder="Your last name.." required/>
+
+                            <input type="text" name="email" placeholder="Your email.." required/>
+    
+                            <textarea name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="title-text text-center" style="color: #626698;">
+            <p style="font-weight: bolder;">CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left" style="color:#626698;">
+                <h1>Openning Hours</h1>
+                <p><i class="bi bi-clock"></i>Monday to Friday - 9am to 9pm</p>
+                <p><i class="bi bi-clock"></i>Satuday to Sunday - 8am to 11pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p><i class="bi bi-geo-alt-fill"></i>#30 Nguyen Trai, Hanoi City </p>
+                <p> <i class="bi bi-paperclip"></i>novelshop@website.com</p>
+                <p> <i class="bi bi-phone"></i>+0123456789</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+            <p>Copyright By KMh</p>
+        </div>
+    </section>
+</body>
