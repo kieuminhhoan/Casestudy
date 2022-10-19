@@ -192,11 +192,11 @@ header .container .col-md-5 img {
     letter-spacing: 0.5px;
 }
 
-.Latest-Products .button .btn-primary:not(:disabled):not(.disabled):active,
+
 .Latest-Products .button .btn-primary:hover {
     color: #fff;
-    background-color: #949494;
-    border-color: #949494;
+    background-image: linear-gradient(to left top, #0091ea, #e1f5);
+    border-color: #fff;
 }
 
 .Latest-Products .button .btn-primary:not(:disabled):not(.disabled):active:focus {
@@ -241,7 +241,7 @@ header .container .col-md-5 img {
     border-radius: 3em;
     padding: 2vmin 4.5vmin;
     margin: 1em;
-    transition: ease-in-out 1s;
+    transition: ease-in-out 1s ;
 }
 
 .section-3 .desktop h3 {
